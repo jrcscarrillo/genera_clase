@@ -1,0 +1,614 @@
+<?xml version="1.0" ?>
+<QBXML>
+    <QBXMLMsgsRs>
+        <InvoiceQueryRs requestID="0" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+            <InvoiceRet>
+                <TxnID>638ACB-1501529009</TxnID>
+                <TimeCreated>2017-07-31T14:23:29-06:00</TimeCreated>
+                <TimeModified>2017-09-02T09:06:27-06:00</TimeModified>
+                <EditSequence>1501529009</EditSequence>
+                <TxnNumber>394928</TxnNumber>
+                <CustomerRef>
+                    <ListID>80000D92-1373986337</ListID>
+                    <FullName>SANTAFE MENA MARIA LUISA (PTO AMBULANTE)</FullName>
+                </CustomerRef>
+                <ClassRef>
+                    <ListID>80000092-1493244403</ListID>
+                    <FullName>Prod. Terminado:QUITO BUEN ESTADO:Matriz Quito</FullName>
+                </ClassRef>
+                <ARAccountRef>
+                    <ListID>8000002D-1317306598</ListID>
+                    <FullName>ACTIVOS FINANCIEROS:Cuentas por Cobrar:CXC Rutas Matriz Quito</FullName>
+                </ARAccountRef>
+                <TemplateRef>
+                    <ListID>8000001F-1453493641</ListID>
+                    <FullName>Factura General 2016</FullName>
+                </TemplateRef>
+                <TxnDate>2017-08-01</TxnDate>
+                <RefNumber>130744</RefNumber>
+                <BillAddress>
+                    <Addr1>SANTAFE MENA MARIA LUISA</Addr1>
+                    <Addr2>0401113998001</Addr2>
+                    <Addr3>PSJE ALAMBRA S6-222 Y GRANADA</Addr3>
+                    <City>QUITO</City>
+                </BillAddress>
+                <BillAddressBlock>
+                    <Addr1>SANTAFE MENA MARIA LUISA</Addr1>
+                    <Addr2>0401113998001</Addr2>
+                    <Addr3>PSJE ALAMBRA S6-222 Y GRANADA</Addr3>
+                    <Addr4>QUITO</Addr4>
+                </BillAddressBlock>
+                <IsPending>false</IsPending>
+                <IsFinanceCharge>false</IsFinanceCharge>
+                <TermsRef>
+                    <ListID>80000004-1316622029</ListID>
+                    <FullName>Contado</FullName>
+                </TermsRef>
+                <DueDate>2017-08-01</DueDate>
+                <SalesRepRef>
+                    <ListID>80000018-1436798678</ListID>
+                    <FullName>BNH</FullName>
+                </SalesRepRef>
+                <ShipDate>2017-08-01</ShipDate>
+                <Subtotal>180.81</Subtotal>
+                <ItemSalesTaxRef>
+                    <ListID>80000018-1318017423</ListID>
+                    <FullName>IVA</FullName>
+                </ItemSalesTaxRef>
+                <SalesTaxPercentage>12.00</SalesTaxPercentage>
+                <SalesTaxTotal>21.70</SalesTaxTotal>
+                <AppliedAmount>-202.51</AppliedAmount>
+                <BalanceRemaining>0.00</BalanceRemaining>
+                <IsPaid>true</IsPaid>
+                <IsToBePrinted>false</IsToBePrinted>
+                <IsToBeEmailed>false</IsToBeEmailed>
+                <CustomerSalesTaxCodeRef>
+                    <ListID>80000001-1316622024</ListID>
+                    <FullName>Tax</FullName>
+                </CustomerSalesTaxCodeRef>
+                <Other>B. NAVAS</Other>
+                <LinkedTxn>
+                    <TxnID>644F4B-1502903943</TxnID>
+                    <TxnType>ReceivePayment</TxnType>
+                    <TxnDate>2017-08-10</TxnDate>
+                    <RefNumber>69486</RefNumber>
+                    <LinkType>AMTTYPE</LinkType>
+                    <Amount>-15.97</Amount>
+                </LinkedTxn>
+                <LinkedTxn>
+                    <TxnID>646DEF-1503013885</TxnID>
+                    <TxnType>ReceivePayment</TxnType>
+                    <TxnDate>2017-08-16</TxnDate>
+                    <RefNumber>69498</RefNumber>
+                    <LinkType>AMTTYPE</LinkType>
+                    <Amount>-15.00</Amount>
+                </LinkedTxn>
+                <LinkedTxn>
+                    <TxnID>65037A-1504130841</TxnID>
+                    <TxnType>ReceivePayment</TxnType>
+                    <TxnDate>2017-08-25</TxnDate>
+                    <RefNumber>69463</RefNumber>
+                    <LinkType>AMTTYPE</LinkType>
+                    <Amount>-10.50</Amount>
+                </LinkedTxn>
+                <LinkedTxn>
+                    <TxnID>6518C6-1504200076</TxnID>
+                    <TxnType>ReceivePayment</TxnType>
+                    <TxnDate>2017-08-28</TxnDate>
+                    <RefNumber>71925</RefNumber>
+                    <LinkType>AMTTYPE</LinkType>
+                    <Amount>-161.04</Amount>
+                </LinkedTxn>
+                <InvoiceLineRet>
+                    <TxnLineID>638ACD-1501529009</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000017-1317912731</ListID>
+                        <FullName>Helados Ideal:101</FullName>
+                    </ItemRef>
+                    <Desc>7862102274009 Coqueiro Ideal 60g. Coco</Desc>
+                    <Quantity>150</Quantity>
+                    <Rate>0.6027</Rate>
+                    <ClassRef>
+                        <ListID>80000092-1493244403</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Matriz Quito</FullName>
+                    </ClassRef>
+                    <Amount>90.41</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638ACE-1501529009</TxnLineID>
+                    <ItemRef>
+                        <ListID>8000003F-1320778658</ListID>
+                        <FullName>Helados Ideal:102</FullName>
+                    </ItemRef>
+                    <Desc>7862102274108 Coqueiro Ideal 60g. Mora</Desc>
+                    <Quantity>60</Quantity>
+                    <Rate>0.6027</Rate>
+                    <ClassRef>
+                        <ListID>80000092-1493244403</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Matriz Quito</FullName>
+                    </ClassRef>
+                    <Amount>36.16</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638ACF-1501529009</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000045-1320783003</ListID>
+                        <FullName>Helados Ideal:105</FullName>
+                    </ItemRef>
+                    <Desc>7862102274405 Coqueiro Ideal 60g. Chocolate</Desc>
+                    <Quantity>50</Quantity>
+                    <Rate>0.6027</Rate>
+                    <ClassRef>
+                        <ListID>80000092-1493244403</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Matriz Quito</FullName>
+                    </ClassRef>
+                    <Amount>30.14</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638AD0-1501529009</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000047-1320852893</ListID>
+                        <FullName>Helados Ideal:106</FullName>
+                    </ItemRef>
+                    <Desc>7862102274504 Coqueiro Ideal 60g. Guan&#225;bana</Desc>
+                    <Quantity>20</Quantity>
+                    <Rate>0.6027</Rate>
+                    <ClassRef>
+                        <ListID>80000092-1493244403</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Matriz Quito</FullName>
+                    </ClassRef>
+                    <Amount>12.05</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638AD1-1501529009</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000050-1320856864</ListID>
+                        <FullName>Helados Ideal:110</FullName>
+                    </ItemRef>
+                    <Desc>7862102276515 Coqueiro Ideal 60g. Mango</Desc>
+                    <Quantity>20</Quantity>
+                    <Rate>0.6027</Rate>
+                    <ClassRef>
+                        <ListID>80000092-1493244403</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Matriz Quito</FullName>
+                    </ClassRef>
+                    <Amount>12.05</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+            </InvoiceRet>
+            <InvoiceRet>
+                <TxnID>638AD3-1501529062</TxnID>
+                <TimeCreated>2017-07-31T14:24:22-06:00</TimeCreated>
+                <TimeModified>2017-09-02T09:06:27-06:00</TimeModified>
+                <EditSequence>1501529062</EditSequence>
+                <TxnNumber>394929</TxnNumber>
+                <CustomerRef>
+                    <ListID>80001A52-1454526726</ListID>
+                    <FullName>CORPORACION FAVORITA C.A.</FullName>
+                </CustomerRef>
+                <ClassRef>
+                    <ListID>80000092-1493244403</ListID>
+                    <FullName>Prod. Terminado:QUITO BUEN ESTADO:Matriz Quito</FullName>
+                </ClassRef>
+                <ARAccountRef>
+                    <ListID>8000002D-1317306598</ListID>
+                    <FullName>ACTIVOS FINANCIEROS:Cuentas por Cobrar:CXC Rutas Matriz Quito</FullName>
+                </ARAccountRef>
+                <TemplateRef>
+                    <ListID>8000001F-1453493641</ListID>
+                    <FullName>Factura General 2016</FullName>
+                </TemplateRef>
+                <TxnDate>2017-08-01</TxnDate>
+                <RefNumber>130745</RefNumber>
+                <BillAddress>
+                    <Addr1>CORPORACION FAVORITA C.A.</Addr1>
+                    <Addr2>1790016919001</Addr2>
+                    <Addr3>AV. GENERAL ENRIQUEZ, VIA COTOGCHOA</Addr3>
+                    <City>QUITO</City>
+                </BillAddress>
+                <BillAddressBlock>
+                    <Addr1>CORPORACION FAVORITA C.A.</Addr1>
+                    <Addr2>1790016919001</Addr2>
+                    <Addr3>AV. GENERAL ENRIQUEZ, VIA COTOGCHOA</Addr3>
+                    <Addr4>QUITO</Addr4>
+                </BillAddressBlock>
+                <IsPending>false</IsPending>
+                <IsFinanceCharge>false</IsFinanceCharge>
+                <TermsRef>
+                    <ListID>8000000F-1326208249</ListID>
+                    <FullName>Neto 21 dias</FullName>
+                </TermsRef>
+                <DueDate>2017-08-22</DueDate>
+                <SalesRepRef>
+                    <ListID>80000018-1436798678</ListID>
+                    <FullName>BNH</FullName>
+                </SalesRepRef>
+                <ShipDate>2017-08-01</ShipDate>
+                <Subtotal>915.30</Subtotal>
+                <ItemSalesTaxRef>
+                    <ListID>80000018-1318017423</ListID>
+                    <FullName>IVA</FullName>
+                </ItemSalesTaxRef>
+                <SalesTaxPercentage>12.00</SalesTaxPercentage>
+                <SalesTaxTotal>109.84</SalesTaxTotal>
+                <AppliedAmount>-42.11</AppliedAmount>
+                <BalanceRemaining>983.03</BalanceRemaining>
+                <IsPaid>false</IsPaid>
+                <IsToBePrinted>false</IsToBePrinted>
+                <IsToBeEmailed>false</IsToBeEmailed>
+                <CustomerSalesTaxCodeRef>
+                    <ListID>80000001-1316622024</ListID>
+                    <FullName>Tax</FullName>
+                </CustomerSalesTaxCodeRef>
+                <Other>B. NAVAS</Other>
+                <LinkedTxn>
+                    <TxnID>643FBB-1502839934</TxnID>
+                    <TxnType>CreditMemo</TxnType>
+                    <TxnDate>2017-08-05</TxnDate>
+                    <RefNumber>317479</RefNumber>
+                    <LinkType>AMTTYPE</LinkType>
+                    <Amount>-42.11</Amount>
+                </LinkedTxn>
+                <InvoiceLineRet>
+                    <TxnLineID>638AD5-1501529062</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000171-1454500726</ListID>
+                        <FullName>Helados Pack:201</FullName>
+                    </ItemRef>
+                    <Desc>7862102276584 Coqueiro 4Pack S&#250;per 440g. Coco</Desc>
+                    <Quantity>15</Quantity>
+                    <Rate>33.90</Rate>
+                    <ClassRef>
+                        <ListID>80000092-1493244403</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Matriz Quito</FullName>
+                    </ClassRef>
+                    <Amount>508.50</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638AD6-1501529062</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000190-1472745125</ListID>
+                        <FullName>Helados Pack:202</FullName>
+                    </ItemRef>
+                    <Desc>7862102276591 Coqueiro 4Pack S&#250;per 440g. Mora
+                    </Desc>
+                    <Quantity>6</Quantity>
+                    <Rate>33.90</Rate>
+                    <ClassRef>
+                        <ListID>80000092-1493244403</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Matriz Quito</FullName>
+                    </ClassRef>
+                    <Amount>203.40</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638AD7-1501529062</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000191-1472745405</ListID>
+                        <FullName>Helados Pack:205</FullName>
+                    </ItemRef>
+                    <Desc>7862102276607 Coqueiro 4Pack S&#250;per 440g. Chocolate
+                    </Desc>
+                    <Quantity>6</Quantity>
+                    <Rate>33.90</Rate>
+                    <ClassRef>
+                        <ListID>80000092-1493244403</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Matriz Quito</FullName>
+                    </ClassRef>
+                    <Amount>203.40</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+            </InvoiceRet>
+            <InvoiceRet>
+                <TxnID>638B90-1501529752</TxnID>
+                <TimeCreated>2017-07-31T14:35:52-06:00</TimeCreated>
+                <TimeModified>2017-09-02T09:06:27-06:00</TimeModified>
+                <EditSequence>1501529752</EditSequence>
+                <TxnNumber>394937</TxnNumber>
+                <CustomerRef>
+                    <ListID>80000B41-1363875561</ListID>
+                    <FullName>GUIRACOCHA IMBAQUINGO MARCELA</FullName>
+                </CustomerRef>
+                <ClassRef>
+                    <ListID>8000008F-1493240143</ListID>
+                    <FullName>Prod. Terminado:QUITO BUEN ESTADO:Rutas Quito 1</FullName>
+                </ClassRef>
+                <ARAccountRef>
+                    <ListID>8000002D-1317306598</ListID>
+                    <FullName>ACTIVOS FINANCIEROS:Cuentas por Cobrar:CXC Rutas Matriz Quito</FullName>
+                </ARAccountRef>
+                <TemplateRef>
+                    <ListID>80000020-1495049087</ListID>
+                    <FullName>Factura Nuevos Campos 2017</FullName>
+                </TemplateRef>
+                <TxnDate>2017-08-01</TxnDate>
+                <RefNumber>130746</RefNumber>
+                <BillAddress>
+                    <Addr1>GUIRACOCHA IMBAQUINGO MARCELA</Addr1>
+                    <Addr2>ROCA OE5-86 Y REINA VICTORIA</Addr2>
+                    <City>QUITO</City>
+                    <State>PICHINCHA</State>
+                    <PostalCode>17000</PostalCode>
+                </BillAddress>
+                <BillAddressBlock>
+                    <Addr1>GUIRACOCHA IMBAQUINGO MARCELA</Addr1>
+                    <Addr2>ROCA OE5-86 Y REINA VICTORIA</Addr2>
+                    <Addr3>QUITO, PICHINCHA 17000</Addr3>
+                </BillAddressBlock>
+                <IsPending>false</IsPending>
+                <IsFinanceCharge>false</IsFinanceCharge>
+                <TermsRef>
+                    <ListID>80000004-1316622029</ListID>
+                    <FullName>Contado</FullName>
+                </TermsRef>
+                <DueDate>2017-08-01</DueDate>
+                <SalesRepRef>
+                    <ListID>80000024-1488831689</ListID>
+                    <FullName>CSC</FullName>
+                </SalesRepRef>
+                <ShipDate>2017-08-01</ShipDate>
+                <Subtotal>27.70</Subtotal>
+                <ItemSalesTaxRef>
+                    <ListID>80000018-1318017423</ListID>
+                    <FullName>IVA</FullName>
+                </ItemSalesTaxRef>
+                <SalesTaxPercentage>12.00</SalesTaxPercentage>
+                <SalesTaxTotal>3.32</SalesTaxTotal>
+                <AppliedAmount>-31.02</AppliedAmount>
+                <BalanceRemaining>0.00</BalanceRemaining>
+                <IsPaid>true</IsPaid>
+                <IsToBePrinted>false</IsToBePrinted>
+                <IsToBeEmailed>false</IsToBeEmailed>
+                <CustomerSalesTaxCodeRef>
+                    <ListID>80000001-1316622024</ListID>
+                    <FullName>Tax</FullName>
+                </CustomerSalesTaxCodeRef>
+                <Other>B. NAVAS</Other>
+                <LinkedTxn>
+                    <TxnID>63B533-1501779755</TxnID>
+                    <TxnType>ReceivePayment</TxnType>
+                    <TxnDate>2017-08-01</TxnDate>
+                    <RefNumber>69284</RefNumber>
+                    <LinkType>AMTTYPE</LinkType>
+                    <Amount>-31.02</Amount>
+                </LinkedTxn>
+                <InvoiceLineRet>
+                    <TxnLineID>638B92-1501529752</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000001-1316627288</ListID>
+                        <FullName>Helados S&#250;per:001</FullName>
+                    </ItemRef>
+                    <Desc>7862102271008 Coqueiro S&#250;per 110 g. Coco</Desc>
+                    <Quantity>15</Quantity>
+                    <Rate>0.9904</Rate>
+                    <ClassRef>
+                        <ListID>8000008F-1493240143</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Rutas Quito 1</FullName>
+                    </ClassRef>
+                    <Amount>14.86</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638B93-1501529752</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000017-1317912731</ListID>
+                        <FullName>Helados Ideal:101</FullName>
+                    </ItemRef>
+                    <Desc>7862102274009 Coqueiro Ideal 60g. Coco</Desc>
+                    <Quantity>15</Quantity>
+                    <Rate>0.6418</Rate>
+                    <ClassRef>
+                        <ListID>8000008F-1493240143</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Rutas Quito 1</FullName>
+                    </ClassRef>
+                    <Amount>9.63</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638B94-1501529752</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000045-1320783003</ListID>
+                        <FullName>Helados Ideal:105</FullName>
+                    </ItemRef>
+                    <Desc>7862102274405 Coqueiro Ideal 60g. Chocolate</Desc>
+                    <Quantity>5</Quantity>
+                    <Rate>0.6418</Rate>
+                    <ClassRef>
+                        <ListID>8000008F-1493240143</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Rutas Quito 1</FullName>
+                    </ClassRef>
+                    <Amount>3.21</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+            </InvoiceRet>
+            <InvoiceRet>
+                <TxnID>638BA8-1501529851</TxnID>
+                <TimeCreated>2017-07-31T14:37:31-06:00</TimeCreated>
+                <TimeModified>2017-09-02T09:06:27-06:00</TimeModified>
+                <EditSequence>1501529851</EditSequence>
+                <TxnNumber>394944</TxnNumber>
+                <CustomerRef>
+                    <ListID>80001BDB-1467061629</ListID>
+                    <FullName>PERUGACHI BONILLA LUIS ALBERTO</FullName>
+                </CustomerRef>
+                <ClassRef>
+                    <ListID>8000008F-1493240143</ListID>
+                    <FullName>Prod. Terminado:QUITO BUEN ESTADO:Rutas Quito 1</FullName>
+                </ClassRef>
+                <ARAccountRef>
+                    <ListID>8000002D-1317306598</ListID>
+                    <FullName>ACTIVOS FINANCIEROS:Cuentas por Cobrar:CXC Rutas Matriz Quito</FullName>
+                </ARAccountRef>
+                <TemplateRef>
+                    <ListID>80000020-1495049087</ListID>
+                    <FullName>Factura Nuevos Campos 2017</FullName>
+                </TemplateRef>
+                <TxnDate>2017-08-01</TxnDate>
+                <RefNumber>130747</RefNumber>
+                <BillAddress>
+                    <Addr1>PERUGACHI BONILLA LUIS ALBERTO</Addr1>
+                    <Addr2>JORGE WASHINGTON 610 Y JUAN LEON MERA</Addr2>
+                    <City>QUITO</City>
+                    <State>PICHINCHA</State>
+                    <PostalCode>17000</PostalCode>
+                </BillAddress>
+                <BillAddressBlock>
+                    <Addr1>PERUGACHI BONILLA LUIS ALBERTO</Addr1>
+                    <Addr2>JORGE WASHINGTON 610 Y JUAN LEON MERA</Addr2>
+                    <Addr3>QUITO, PICHINCHA 17000</Addr3>
+                </BillAddressBlock>
+                <IsPending>false</IsPending>
+                <IsFinanceCharge>false</IsFinanceCharge>
+                <TermsRef>
+                    <ListID>80000004-1316622029</ListID>
+                    <FullName>Contado</FullName>
+                </TermsRef>
+                <DueDate>2017-08-01</DueDate>
+                <SalesRepRef>
+                    <ListID>80000024-1488831689</ListID>
+                    <FullName>CSC</FullName>
+                </SalesRepRef>
+                <ShipDate>2017-08-01</ShipDate>
+                <Subtotal>30.90</Subtotal>
+                <ItemSalesTaxRef>
+                    <ListID>80000018-1318017423</ListID>
+                    <FullName>IVA</FullName>
+                </ItemSalesTaxRef>
+                <SalesTaxPercentage>12.00</SalesTaxPercentage>
+                <SalesTaxTotal>3.71</SalesTaxTotal>
+                <AppliedAmount>-34.61</AppliedAmount>
+                <BalanceRemaining>0.00</BalanceRemaining>
+                <IsPaid>true</IsPaid>
+                <IsToBePrinted>false</IsToBePrinted>
+                <IsToBeEmailed>false</IsToBeEmailed>
+                <CustomerSalesTaxCodeRef>
+                    <ListID>80000001-1316622024</ListID>
+                    <FullName>Tax</FullName>
+                </CustomerSalesTaxCodeRef>
+                <Other>B. NAVAS</Other>
+                <LinkedTxn>
+                    <TxnID>63B53E-1501779775</TxnID>
+                    <TxnType>ReceivePayment</TxnType>
+                    <TxnDate>2017-08-01</TxnDate>
+                    <RefNumber>69285</RefNumber>
+                    <LinkType>AMTTYPE</LinkType>
+                    <Amount>-34.61</Amount>
+                </LinkedTxn>
+                <InvoiceLineRet>
+                    <TxnLineID>638BAA-1501529851</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000001-1316627288</ListID>
+                        <FullName>Helados S&#250;per:001</FullName>
+                    </ItemRef>
+                    <Desc>7862102271008 Coqueiro S&#250;per 110 g. Coco</Desc>
+                    <Quantity>10</Quantity>
+                    <Rate>0.9904</Rate>
+                    <ClassRef>
+                        <ListID>8000008F-1493240143</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Rutas Quito 1</FullName>
+                    </ClassRef>
+                    <Amount>9.90</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638BAB-1501529851</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000046-1320852781</ListID>
+                        <FullName>Helados S&#250;per:006</FullName>
+                    </ItemRef>
+                    <Desc>7862102271503 Coqueiro S&#250;per 110g. Guan&#225;bana</Desc>
+                    <Quantity>5</Quantity>
+                    <Rate>0.9904</Rate>
+                    <ClassRef>
+                        <ListID>8000008F-1493240143</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Rutas Quito 1</FullName>
+                    </ClassRef>
+                    <Amount>4.95</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638BAC-1501529851</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000017-1317912731</ListID>
+                        <FullName>Helados Ideal:101</FullName>
+                    </ItemRef>
+                    <Desc>7862102274009 Coqueiro Ideal 60g. Coco</Desc>
+                    <Quantity>20</Quantity>
+                    <Rate>0.6418</Rate>
+                    <ClassRef>
+                        <ListID>8000008F-1493240143</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Rutas Quito 1</FullName>
+                    </ClassRef>
+                    <Amount>12.84</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+                <InvoiceLineRet>
+                    <TxnLineID>638BAD-1501529851</TxnLineID>
+                    <ItemRef>
+                        <ListID>80000047-1320852893</ListID>
+                        <FullName>Helados Ideal:106</FullName>
+                    </ItemRef>
+                    <Desc>7862102274504 Coqueiro Ideal 60g. Guan&#225;bana</Desc>
+                    <Quantity>5</Quantity>
+                    <Rate>0.6418</Rate>
+                    <ClassRef>
+                        <ListID>8000008F-1493240143</ListID>
+                        <FullName>Prod. Terminado:QUITO BUEN ESTADO:Rutas Quito 1</FullName>
+                    </ClassRef>
+                    <Amount>3.21</Amount>
+                    <SalesTaxCodeRef>
+                        <ListID>80000001-1316622024</ListID>
+                        <FullName>Tax</FullName>
+                    </SalesTaxCodeRef>
+                </InvoiceLineRet>
+            </InvoiceRet>
+        </InvoiceQueryRs>
+    </QBXMLMsgsRs>
+</QBXML>

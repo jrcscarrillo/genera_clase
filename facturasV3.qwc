@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<QBWCXML>
+	<AppName>InvoiceVerN3</AppName>
+	<AppID></AppID>
+	<AppURL>https://loscoqueiros.info/docs/web_connector/syncInvoiceJC.php</AppURL>
+	<AppDescription>Sincroniza invoices QB nueva version</AppDescription>
+	<AppSupport>https://loscoqueiros.info/</AppSupport>
+	<UserName>jrcscarrillo</UserName>
+	<OwnerID>{FCB4078C-91C1-962F-8B20-D546A4F3BAD1}</OwnerID>
+	<FileID>{E2143EBE-F1FD-DA72-2E3E-AD58F1F8E9CE}</FileID>
+	<QBType>QBFS</QBType>
+	<Notify>false</Notify>
+	<Scheduler>
+		<RunEveryNMinutes>1</RunEveryNMinutes>
+	</Scheduler>
+	<IsReadOnly>false</IsReadOnly>
+</QBWCXML>

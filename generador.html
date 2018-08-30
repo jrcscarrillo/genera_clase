@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://carrillosteam.com/public/css/demo.css">
+        <link rel="stylesheet" href="https://carrillosteam.com/public/css/sky-forms-ie8.css">
+        <link rel="stylesheet" href="https://carrillosteam.com/public/css/sky-forms-blue.css">
+        <link rel="stylesheet" href="https://carrillosteam.com/public/css/sky-forms-orange.css">
+        <link rel="stylesheet" href="https://carrillosteam.com/public/css/sky-forms-green.css">
+        <link rel="stylesheet" href="https://carrillosteam.com/public/css/sky-forms-coqueiro.css">
+        <link rel="stylesheet" href="https://carrillosteam.com/public/css/sky-forms.css">        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <div>TODO write content</div>
+    <div class="body bg-blue">      
+                <form action="generator.php" method="POST" name="FORMGEN">
+       <fieldset>
+            <section>
+                <div class="row">
+                    <label class="label col col-4">Nombre de la Aplicacion</label>
+                    <div class="col col-8">
+                        <label class="input">
+                            {{ form.render('nombre', ['class': 'form-control']) }}
+                        </label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                    <label class="label col col-4">Descripcion</label>
+                    <div class="col col-8">
+                        <label class="input">
+                            {{ form.render('descripcion', ['class': 'form-control']) }}
+                        </label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                    <label class="label col col-4">URL segura https</label>
+                    <div class="col col-8">
+                        <label class="input">
+                            {{ form.render('url', ['class': 'form-control']) }}
+                        </label>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                    <label class="label col col-4">URL Soporte</label>
+                    <div class="col col-8">
+                        <label class="input">
+                            {{ form.render('soporte', ['class': 'form-control']) }}
+                        </label>
+                    </div>
+                </div>
+            </section>
+        </fieldset>
+        <footer>
+            {{ submit_button('Enviar', 'class': 'btn btn-primary') }}
+            <p class="help-block">Agregara una nueva aplicacion.</p>
+        </footer>
+    </form>       
+    </div>
+    <script src="https://carrillosteam.com/public/js/jquery.form.min.js"></script>
+    <script src="https://carrillosteam.com/public/js/jquery.maskedinput.min.js"></script>
+    <script src="https://carrillosteam.com/public/js/jquery.modal.js"></script>
+    <script src="https://carrillosteam.com/public/js/jquery.validate.min.js"></script>
+    <script src="https://carrillosteam.com/public/js/utils.js"></script>
+    <script src="https://carrillosteam.com/public/js/slider.js"></script>
+    <!--[if lt IE 10]>
+            <script src="https://carrillosteam.com/public/js/jquery.placeholder.min.js"></script>
+    <![endif]-->		
+    <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="https://carrillosteam.com/public/js/sky-forms-ie8.js"></script>
+    <![endif]-->        
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+         
+    </body>
+</html>
